@@ -70,3 +70,4 @@ DecisionTree<Person> tree = new DecisionTree<>(person)
 `Decisions4J` provides some basic error handling. If you don't add any rules to the `DecisionTree`, calling `decide()` will result in an `IllegalStateException`. Similarly, if you don't call `decide()` after adding rules, you'll get an `IllegalStateException` as well. If you call `defaultCase()` with a null action, you'll get a `NullPointerException`.
 
 ---
+###### check out the javascript version [here](https://github.com/Adversing/decisions.js/) :) 
